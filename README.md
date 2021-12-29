@@ -3,6 +3,10 @@ Could not start pool, error with init RPC getinfo - {"code":-32601,"message":"Me
 
 all block reject X11 install patch nomp_x11_stratum_patch.diff
 
+command 
+
+patch -p1 < nomp_x11_stratum_patch.diff
+
 git clone https://github.com/allforminers/lib-to-pool-node-modules.git
 
 unzip lib-to-pool-node-modules
